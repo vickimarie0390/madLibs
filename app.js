@@ -10,13 +10,13 @@ function createParagraph() {
     var wordEight = document.getElementById("textEight").value;
     var wordNine = document.getElementById("textNine").value;
     var wordTen = document.getElementById("textTen").value;
-    // var wordEleven = document.getElementById("textEleven").value;
+    var wordEleven = document.getElementById("textEleven").value;
     var wordTwelve = document.getElementById("textTweleve").value;
     var wordThirteen = document.getElementById("textThirteen").value;
 
  
 
-    var paragraph =  "woke up " + wordOne + " smell of " + wordTwo + " roasting in the " + wordThree + " downstairs. I " + wordFour + "down the stairs to see if I could help " + wordFive + " the dinner. My mom said See if " + wordSix + " needs a fresh " + wordSeven + " So I carried  tray of glasses full of " + wordEight + " into the " + wordNine + " room. " + " When I got there I couldn't believe my " + wordTen +! + " There were "  + wordTwelve + " on the " + wordThirteen +"!";
+    var paragraph = "It was a " + wordOne + " cold November day.  I woke up " + wordTwo + " smell of " + wordThree + " roasting in the " + wordFour + " downstairs. I " + wordFive + "down the stairs to see if I could help " + wordSix + " the dinner. My mom said See if " + wordSeven + " needs a fresh " + wordEight + " So I carried  tray of glasses full of " + wordNine + " into the " + wordTen + " room. " + " When I got there I couldn't believe my " + wordEleven +! + " There were "  + wordTwelve + " on the " + wordThirteen +"!";
 
 
     document.getElementById('answer').innerHTML = paragraph;
