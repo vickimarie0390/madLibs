@@ -1,15 +1,17 @@
 h1{
     text-align: center;
     font-family: Helvetica;
-    text-shadow: 2px 2px #f3efec;
+    text-shadow: 2px 2px #070503;
     font-size: 75px;
     color: #D2691E;
 }
 li{
     text-align: center;
+    padding-bottom: 5px;
+    line-height: 1.5;
 }
 body {
-    background-image: linear-gradient(to right, rgb(90, 51, 7),rgb(197, 136, 65),rgb(88, 59, 15),rgb(129, 84, 25),rgb(172, 137, 98));
+    background-image: linear-gradient(to right, rgb(90, 51, 7),rgb(190, 111, 20),rgb(88, 59, 15),rgb(129, 84, 25),rgb(177, 103, 19));
     }
 ul{
     display: column;
