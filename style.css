@@ -1,9 +1,9 @@
 h1{
     text-align: center;
     font-family: Helvetica;
-    text-shadow: 2px 2px #070503;
+    text-shadow: 2px 2px #aa8a6a;
     font-size: 75px;
-    color: #D2691E;
+    color: #aa734b;
 }
 li{
     text-align: center;
@@ -20,10 +20,7 @@ ul{
     text-align: center;
     margin-bottom: 20px;;
 }
-h3 {
-    color: rgb(156, 145, 145);
-    font-family: Helvetica;
-    text-shadow: 2px 2px #8B0000;
-    text-align: center;
-    font-size: 25px;
+
+p{
+    color: rgb(143, 66, 22);
 }

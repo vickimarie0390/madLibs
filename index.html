@@ -4,13 +4,15 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Mad Lib</title>
     <link rel="stylesheet" href="style.css">
+    <title>Mad Lib</title>
+    
 </head>
 <body>
     <h1>Thanksgiving</h1>
-    <form onSubmit="return false" action="">
+    
         <ul>
+            <form onSubmit="return false" action=""></form>
             <li><input type="text" placeholder="adjective" id="textOne"></li>
             <li><input type="text" placeholder="type of bird" id="textTwo"></li>
             <li><input type="text" placeholder="room in house" id="textThree"></li>
@@ -21,6 +23,7 @@
             <li><input type="text" placeholder="a liquid" id="textEight"></li>
             <li><input type="text" placeholder="verb ending in -ing" id="textNine"></li>
             <li><input type="text" placeholder="part of the body plural" id="textTen"></li>
+            <li><input type="text" placeholder="part of the body plural" id="textEleven"></li>
             <li><input type="text" placeholder="part of the body plural" id="textTweleve"></li>
             <li><input type="text" placeholder="part of the body plural" id="textThirteen"></li>
             <li><button type="button" id="button" onclick="createParagraph()">Start</button></li>
@@ -30,6 +33,6 @@
         
     </form>
     <div id="answer"></div>
-    <script src="./app.js"></script>
+    <script src="./app.js"></script> 
 </body>
 </html>
